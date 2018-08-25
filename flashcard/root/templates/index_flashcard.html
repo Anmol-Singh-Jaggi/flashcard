@@ -4,25 +4,24 @@
   </head>
   <body>
     <div>
-      <form action="/flashcard/next_word" method="POST">
-        Word list: <textarea style="width:15em;height:1.5em;font-size:1em;" readonly name="word_list_name" placeholder="Derp-List">{{word_list_name}}</textarea><br>
-        Word list size: <textarea style="width:5em;height:1.5em;font-size:1em;"readonly name="word_list_size" placeholder="-1">{{word_list_size}}</textarea><br>
-        Current word: <textarea style="width:15em;height:1.5em;font-size:1.5em;color:red" readonly name="current_word" placeholder="Hello">{{current_word}}</textarea><br>
-        Current word cursor: <textarea style="width:5em;height:1.5em;font-size:1em;" readonly name="current_word_cursor" placeholder="-1">{{current_word_cursor}}</textarea><br>
-        <input type="submit" value="Next word"><br>
-      </form>
       <form action="/flashcard/change_list" method="POST">
-        <select name="change_list">
+        <select style="width:10em;height:3em;font-size:1.5em;" name="change_list">
             <option value="synonyms">Synonyms</option>
             <option value="bookmarks_difficult">Bookmarks difficult</option>
             <option value="bookmarks">Bookmarks</option>
         </select><br>
-        <input type="submit" value="Change list">
+        <input style="width:10em;height:3em;font-size:1.5em;" type="submit" value="Change list">
       </form>
-      <form action="/flashcard/synonyms" method="POST">
-        <input type="submit" value="Show synonyms">
-        <textarea style="width:70em;height:5em;font-size:1em;" readonly name="synonyms" placeholder="No syns found!!">{{synonyms}}</textarea><br>
+      <br>
+      <form action="/flashcard/next_word" method="POST">
+        Word list: <textarea style="width:15em;height:1.5em;font-size:1em;" readonly name="word_list_name" placeholder="Derp-List">{{word_list_name}}</textarea><br>
+        Word list size: <textarea style="width:5em;height:1.5em;font-size:1em;"readonly name="word_list_size" placeholder="-1">{{word_list_size}}</textarea><br>
+        Current word: <textarea style="width:15em;height:1.5em;font-size:3em;color:maroon" readonly name="current_word" placeholder="Hello">{{current_word}}</textarea><br>
+        Current word cursor: <textarea style="width:5em;height:1.5em;font-size:3em;" readonly name="current_word_cursor" placeholder="-1">{{current_word_cursor}}</textarea><br>
+        <input style="width:10em;height:3em;font-size:1.5em;" type="submit" value="Next word"><br>
       </form>
+      <br><br>
+      <textarea style="width:80em;height:3em;font-size:1.5em;" readonly name="synonyms" placeholder="No syns found!!">{{synonyms}}</textarea
     </div>
   </body>
 </html>

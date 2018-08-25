@@ -35,12 +35,6 @@ def index_flashcard_next_word():
     return process_flashcard.handle_next_word()
 
 
-
-@app.route("/flashcard/synonyms", methods=["POST"])
-def index_flashcard_synonyms():
-    return process_flashcard.handle_synonyms()
-
-
 @app.route("/flashcard/change_list", methods=["POST"])
 def index_flashcard_change_list():
     return process_flashcard.handle_change_list(request)
