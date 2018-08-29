@@ -1,20 +1,20 @@
-apropos apposite germane felicitous pertinent becoming expedient
+apropos apposite germane felicitous pertinent becoming expedient seemly
 aphorism apothegm maxim
-reprimand admonish reprove rebuke reproach censure upbraid castigate lambaste reprehension besmirch patronize snide (remark) disparage denigrate
+reprimand admonish reprove rebuke reproach censure upbraid castigate lambaste reprehension besmirch patronize snide(remark) disparage denigrate
 abjure abdicate relinquish abnegate repudiate renege apostatize recant tergiversate
-acerbity acrimonious astringency asperity cantankerous vitriolic brusquely trenchant (criticism)
-abet conspire defraud fleece machinate collude aspersion slander obloquy faux-naif calumny canard artifice chicanery guile duplicity perjury 
+acerbity acrimonious astringency asperity cantankerous vitriolic brusquely trenchant(criticism)
+abet conspire defraud finagle fleece machinate collude connive aspersion slander obloquy faux-naif calumny canard artifice chicanery guile duplicity perjury 
 swindle insidious diabolical perfidy deceit spurious mendacity specious ignoble sordid unscrupulous subterfuge
 adroit adept deft dexterous precocious agile incisive nimble trenchant
 alacrity fervour ardor vehemence avidly
 assiduous meticulous thoroughgoing sedulous scrupulous painstaking
 covetousness avarice cupidity mercenary
-banal prosaic vapid trite insipid deadpan platitude innocuous hackneyed jejune
-servile obsequious complacent slavish sycophant ingratiating complaisant pretentious chichi fawning lickspittle lackey cajole
+banal prosaic vapid trite insipid deadpan platitude innocuous hackneyed jejune humdrum dreary bromidic dime-a-dozen
+servile obsequious complacent slavish sycophant ingratiating complaisant pretentious chichi fawning lickspittle lackey cajole grovelling
 mawkish schmaltzy histrionic maudlin
 lassitude languour languid indolent torpor recumbent 
 forthright ingenuous aboveboard probity candor rectitude
-presumptuous impudent impertinent insolent conceited supercilious cavalier haughty flippant brazen high-handed sanctimonious
+presumptuous impudent impertinent insolent conceited supercilious cavalier haughty flippant brazen high-handed sanctimonious boorish smug
 prevaricate red-herring
 loquacious voluble garrulous
 impetuous capricious fickle impulsive whimsical mercurial desultory vacillating
@@ -29,8 +29,8 @@ taciturn reticent laconic retiring demure
 deleterious pernicious
 exonerate vindicate absolve acquit exculpate
 parochial provincial insular
-belligerent bellicose pugnacious delinquent (sort of)
-petulant irascible
+belligerent bellicose pugnacious delinquent(sort of)
+petulant irascible surly peevish
 largess magnanimous munificence altruism
 audacious bodacious intrepid
 inscrutable recondite arcane enigmatic indecipherable convoluted imperspicuous
@@ -46,14 +46,14 @@ phlegmatic stoic
 rhetoric hyperbole circumlocution circuitous
 raucous cacophonous
 tergiversate equivocate
-vexed harried indignant
+vexed harried indignant irked exasperated incense rile persecuted
 ephemeral fleeting evanescent fugacious
 nonplus addlepated
-impasse quagmire quandary catch-22
+impasse quagmire quandary catch-22 conundrum
 callous blithe
 cursory perfunctory desultory
 apotheosis deification
-ostentatious profligate debauchery decadence dissipation intemperance prodigal dissoluteness venality sordidness turpitude
+ostentatious profligate debauchery decadence dissipation intemperance prodigal dissoluteness venality sordidness turpitude gaudy flashy tawdry
 antediluvian anachronism
 compunction contrition penitential
 stubborn obstinate steadfast doctrinaire intractable inexorable obdurate stringent intransigent tenacious refractory
@@ -63,7 +63,7 @@ epicurean gluttonous
 euphonious dulcet mellifluous serenade
 expound explicate delineate elucidate
 levity facetious
-foment instigate incite incendiary polemic
+foment instigate incite incendiary polemic goad
 solicit beseech implore entreat adjure bleat
 providential serendipity fortuitous propitious auspicious
 delinquent insolvent
@@ -80,22 +80,32 @@ disposition predisposition propensity penchant inclination proclivity predilecti
 remiss dereliction neglect
 apex zenith summit pinnacle acme heyday apogee
 vindictive resentful spiteful rancorous
+indict implicate accuse inculpate prosecute
 unconscionable unreasonable
 harangue tirade screed spiel diatribe jeremiad
 amok haywire chaos dionysian
 cadaverous emaciated
 connoisseur virtuoso cognoscent consummate
 expunge efface
-sangfroid poise aplomb unflappable unperturbed equanimity nonchalant phlegmatic
+sangfroid poise aplomb unflappable unperturbed equanimity placid phlegmatic
 parlous precarious perilous
 dilatory tardy tarry stonewall
 disavow denegate disclaim repudiate renege
 stopgap makeshift slapdash provisional slipshod lackadaisical
-scintilla modicum morcel
+scintilla modicum morcel smattering smidgen
 archetype paragon epitome exemplar quintessence
 derogate detract (from)
 squalid hinterland
 prudish puritanical
-inclement merciless relentless unrelenting 
+inclement merciless relentless unrelenting
 stolid stoic
 urbane cosmopolitan poised
+catholicon panacea
+spurn snub disavow rebuff
+contempt condescension disdain scorn derision despisal
+genial congenial convivial blithe jocund
+tumult clamor chaos
+travail drudgery pangs
+piquant poignant peppery savory tangy zesty
+salacious lubricious promiscous lascivious prurient
+commutation clemency mercy forbearance

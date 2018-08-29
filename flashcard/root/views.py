@@ -17,7 +17,7 @@ def index():
         
         
 @app.route("/grocery", methods=["GET", "POST"])
-def index_grocery():
+def grocery_index():
     if request.method == "POST":
         return process_grocery.handle_POST(request)
     else:
@@ -25,19 +25,28 @@ def index_grocery():
     
 
 @app.route("/flashcard", methods=["GET"])
-def index_flashcard():
+def flashcard_index():
     return process_flashcard.handle_GET()
 
 
 
 @app.route("/flashcard/next_word", methods=["POST"])
-def index_flashcard_next_word():
+def flashcard_next_word():
     return process_flashcard.handle_next_word()
 
 
 @app.route("/flashcard/change_list", methods=["POST"])
-def index_flashcard_change_list():
+def flashcard_change_list():
     return process_flashcard.handle_change_list(request)
+
+
+@app.route("/flashcard/synonyms", methods=["GET", "POST"])
+def flashcard_synonyms():
+    if request.method == "POST":
+        return process_flashcard.handle_synonyms_POST(request)
+    else:
+        return process_flashcard.handle_synonyms_GET()
+    return 
 
 
 if __name__ == "__main__":

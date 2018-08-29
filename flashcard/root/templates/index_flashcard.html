@@ -4,7 +4,7 @@
   </head>
   <body>
     <div>
-      <form action="/flashcard/change_list" method="POST">
+      <form onsubmit="return confirm('Sure?');" action="/flashcard/change_list" method="POST">
         <select style="width:10em;height:3em;font-size:1.5em;" name="change_list">
             <option value="synonyms">Synonyms</option>
             <option value="bookmarks_difficult">Bookmarks difficult</option>

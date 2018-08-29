@@ -118,3 +118,15 @@ def handle_change_list(request):
     load_file()
     template_content = render_template("index_flashcard.html", **get_template_params())
     return template_content
+
+def handle_synonyms_GET():
+    template_content = render_template("synonyms.html")
+    return template_content
+
+def handle_synonyms_POST(request):
+    word = request.form['word']
+    template_params = {}
+    template_params['synonyms'] = get_synonyms(word)
+    template_params['word'] = word
+    template_content = render_template("synonyms.html", **template_params)
+    return template_content
