@@ -12,7 +12,7 @@ word_list_names.append('bookmarks_difficult.txt')
 synonyms = {}
 synonyms_content_lines = []
 
-word_list_name = ""
+word_list_name = "synonyms"
 word_list_size = -1
 word_list = []
 current_word = ""
@@ -93,7 +93,6 @@ def get_template_params():
 def handle_GET():
     preload_synonyms()
     global word_list_name
-    word_list_name = "synonyms"
     if len(word_list) == 0:
         load_file()
     template_content = render_template("index_flashcard.html", **get_template_params())
