@@ -14,15 +14,15 @@ app = Flask(__name__)
 @app.route("/", methods=["GET"])
 def index():
     return render_template("index.html")
-        
-        
+
+
 @app.route("/grocery", methods=["GET", "POST"])
 def grocery_index():
     if request.method == "POST":
         return process_grocery.handle_POST(request)
     else:
         return process_grocery.handle_GET()
-    
+
 
 @app.route("/flashcard", methods=["GET"])
 def flashcard_index():
@@ -46,7 +46,7 @@ def flashcard_synonyms():
         return process_flashcard.handle_synonyms_POST(request)
     else:
         return process_flashcard.handle_synonyms_GET()
-    return 
+    return
 
 
 if __name__ == "__main__":

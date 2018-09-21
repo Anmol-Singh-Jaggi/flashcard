@@ -22,18 +22,6 @@ current_word_cursor = -1
 data_dir = "data/flashcard/"
 
 
-def read_word_file(word_list_name):
-    synonyms_file_content = open(data_dir + word_list_name + ".txt").read()
-    synonyms_content_lines = word_list_file_content.splitlines()
-    word_list = []
-    for line in lines:
-      words = line.split()
-      for word in words:
-        if len(word) > 1:
-          word_list.append(word)
-    return word_list
-
-
 def preload_synonyms():
     global synonyms
     global synonyms_content_lines
@@ -46,7 +34,7 @@ def preload_synonyms():
         words_in_line = line.split()
         line_num = line_num + 1
         for word in words_in_line:
-            if word not in synonyms:
+            if len(word) > 1 and word not in synonyms:
                 synonyms[word] = []
             synonyms[word].append(line_num)
 
@@ -87,7 +75,7 @@ def get_template_params():
     template_params['word_list_size'] = word_list_size
     template_params['current_word'] = current_word
     template_params['current_word_cursor'] = current_word_cursor
-    template_params['synonyms'] = get_synonyms(current_word)
+    #template_params['synonyms'] = get_synonyms(current_word)
     return template_params
 
 def handle_GET():
